@@ -1,5 +1,5 @@
 :root {
-    --green: #38ccae;
+    --purple: #7b1291;
     --dark: #1b1b1b;
 }
 
@@ -15,8 +15,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--green);
-    background: linear-gradient(to right top, var(--dark), var(--green));
+    background: var(--purple);
+    background: linear-gradient(to right top, var(--dark), var(--purple));
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
@@ -80,7 +80,7 @@ p {
 }
 
 a {
-    color: var(--green);
+    color: var(--purple);
     text-decoration: none;
     position: relative;
 }
@@ -92,8 +92,8 @@ a:after {
     position: absolute;
     top: 100%;
     left: 0;
-    background: var(--green);
-    background: linear-gradient(90deg, transparent, var(--green));
+    background: var(--purple);
+    background: linear-gradient(90deg, transparent, var(--purple));
     transition: width 0.3s;
 }
 
@@ -127,7 +127,7 @@ section:first-child {
 .person__img {
     width: 200px;
     height: 200px;
-    background: var(--green);
+    background: var(--purple);
     border: solid 3px #fff;
     border-radius: 100%;
     overflow: hidden;
@@ -143,7 +143,7 @@ section:first-child {
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    background: linear-gradient(90deg, var(--green), rgba(255, 255, 255, 0.8));
+    background: linear-gradient(90deg, var(--purple), rgba(255, 255, 255, 0.8));
     color: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -165,8 +165,8 @@ button {
     font-size: 42px;
     font-weight: 700;
     color: #fff;
-    background: var(--green);
-    background: linear-gradient(to right top, var(--green), rgba(255, 255, 255, 0.6));
+    background: var(--purple);
+    background: linear-gradient(to right top, var(--purple), rgba(255, 255, 255, 0.6));
     border: none;
     position: relative;
     cursor: pointer;
